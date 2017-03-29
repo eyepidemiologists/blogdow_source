@@ -1,0 +1,71 @@
+baseurl = "https://eyepidemiologists.github.io/"
+publishDir = "../eyepidemiologists.github.io"
+relativeurls = true
+languageCode = "en-us"
+title = "European Young Epidemiologists"
+theme = "ghostwriter"
+googleAnalytics = "UA-96318205-1"
+disqusShortname = "eyepidemiologists"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[Taxonomies]
+    tag = "tags"
+	
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+
+[[menu.main]]
+    name = "The EYE Network"
+    url = "/eye/"
+	
+[[menu.main]]
+    name = "Jobs"
+    url = "/tags/jobs/"
+	
+[[menu.main]]
+    name = "Conferences"
+    url = "/tags/confs/"
+
+[[menu.main]]
+    name = "Scholarships & Awards"
+    url = "/tags/awards/"
+
+[[menu.main]]
+    name = "R"
+    url = "/tags/r/"
+
+[[menu.main]]
+    name = "SAS"
+    url = "/tags/sas/"
+	
+[[menu.main]]
+    name = "Links"
+    url = "/links/"
+	
+[Params]
+    intro = true
+    headline = ""
+    description = "Welcome to the EYE website"
+    linkedin = "https://www.linkedin.com/groups/8580449"
+    twitter = "https://twitter.com/EYE_Epi"
+    email = "eyepidemiologists@gmail.com"
+    opengraph = false
+    shareTwitter = true
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"	
+	
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.9.0"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+[params.logo]
+    url = "logo.jpg"
+    width = 50
+    height = 50
+    alt = "Logo"
+

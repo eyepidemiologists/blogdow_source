@@ -1,0 +1,14 @@
+---
+title: Postdoctoral researcher in Barcelona, Spain
+author: Alexandre
+date: '2017-03-29'
+slug: postdoctoral-researcher-in-barcelona-spain
+categories: []
+tags:
+  - jobs
+description: ''
+---
+
+## Job Description:
+The Barcelona Institute for Global Health (ISGlobal) is looking for a postdoctoral researcher.
+[link here]("~/jobs/PUCS.pdf")
